@@ -7,5 +7,3 @@ echo -ne "Server time is: "; date
 if [ -f $HOME/.bashrc ]; then
     . $HOME/.bashrc
 fi
-
-set -o vi
